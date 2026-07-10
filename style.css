@@ -400,7 +400,11 @@ footer{
 .form-group textarea{
 	resize: vertical;
 }
-
+@media (max-width: 300px){
+	body{
+		flex-wrap: wrap;
+	}
+}
 
 
 
